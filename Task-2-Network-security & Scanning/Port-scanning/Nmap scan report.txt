@@ -1,0 +1,46 @@
+# Nmap 7.98 scan initiated Wed Aug 26 17:43:52 2026 as: /usr/lib/nmap/nmap -sS -sV -O -p- -oN "Nmap scan report.txt" 192.168.56.102/24
+Nmap scan report for 192.168.56.1
+Host is up (0.00077s latency).
+Not shown: 65335 filtered tcp ports (no-response), 187 closed tcp ports (reset)
+PORT      STATE SERVICE VERSION
+135/tcp   open  msrpc   Microsoft Windows RPC
+3306/tcp  open  mysql   MySQL (unauthorized)
+5040/tcp  open  unknown
+9095/tcp  open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+25734/tcp open  flexlm  FlexLM license manager
+33060/tcp open  mysqlx  MySQL X protocol listener
+49664/tcp open  msrpc   Microsoft Windows RPC
+49665/tcp open  msrpc   Microsoft Windows RPC
+49666/tcp open  msrpc   Microsoft Windows RPC
+49667/tcp open  msrpc   Microsoft Windows RPC
+49668/tcp open  msrpc   Microsoft Windows RPC
+49670/tcp open  msrpc   Microsoft Windows RPC
+49671/tcp open  flexlm  FlexLM license manager
+MAC Address: 0A:00:27:00:00:13 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.98%E=4%D=8/26%OT=135%CT=5354%CU=38582%PV=Y%DS=1%DC=D%G=Y%M=0A00
+OS:27%TM=6A8ED99B%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=103%TI=I%CI=I%
+OS:TS=A)SEQ(SP=103%GCD=1%ISR=10C%TI=I%CI=I%TS=A)SEQ(SP=103%GCD=1%ISR=10D%TI
+OS:=I%CI=I%TS=A)SEQ(SP=106%GCD=1%ISR=108%TI=I%CI=I%TS=A)SEQ(SP=FF%GCD=1%ISR
+OS:=10F%TI=I%CI=I%TS=A)OPS(O1=M5B4NW8ST11%O2=M5B4NW8ST11%O3=M5B4NW8NNT11%O4
+OS:=M5B4NW8ST11%O5=M5B4NW8ST11%O6=M5B4ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=F
+OS:FFF%W5=FFFF%W6=FFDC)ECN(R=Y%DF=Y%T=80%W=FFFF%O=M5B4NW8NNS%CC=N%Q=)T1(R=Y
+OS:%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD
+OS:=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%
+OS:S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(
+OS:R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F
+OS:=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G
+OS:%RUD=G)IE(R=N)
+
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 192.168.56.100
+Host is up (0.0011s latency).
+All 65535 scanned ports on 192.168.56.100 are in ignored states.
+Not shown: 65535 filtered tcp ports (proto-unreach)
+MAC Address: 08:00:27:0F:6B:58 (Oracle VirtualBox virtual NIC)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
