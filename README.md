@@ -19,6 +19,10 @@ screenshots, and reports for all 5 tasks of the internship.
 | Task 3 | Web Application Security | ⬜ Not Started |
 | Task 4 | Exploitation & System Security | ⬜ Not Started |
 | Task 5 | Capstone Project & Incident Response | ⬜ Not Started |
+| Task 2 | Network Security & Scanning |  ✅ Completed |
+| Task 3 | Web Application Security | ✅ Completed |
+| Task 4 | Exploitation & System Security | ✅ Completed |
+| Task 5 | Capstone Project & Incident Response | ✅ Completed |
 
 ## Lab Environment
 - **Attacker Machine:** Kali Linux
