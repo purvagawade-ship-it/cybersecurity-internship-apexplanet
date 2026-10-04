@@ -15,10 +15,6 @@ screenshots, and reports for all 5 tasks of the internship.
 | Task | Topic | Status |
 |------|-------|--------|
 | Task 1 | Foundation & Environment Setup | ✅ Completed |
-| Task 2 | Network Security & Scanning | 🔄 In Progress |
-| Task 3 | Web Application Security | ⬜ Not Started |
-| Task 4 | Exploitation & System Security | ⬜ Not Started |
-| Task 5 | Capstone Project & Incident Response | ⬜ Not Started |
 | Task 2 | Network Security & Scanning |  ✅ Completed |
 | Task 3 | Web Application Security | ✅ Completed |
 | Task 4 | Exploitation & System Security | ✅ Completed |
